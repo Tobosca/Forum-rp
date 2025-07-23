@@ -18,3 +18,13 @@
     <i>Nodata observe la scène.</i><br>
     Voici le texte du dialogue de nodata.
 </div>
+
+
+/* Ici c'est pour les polices : /*
+
+<div class="val_dial Rita" data-speaker="Rita">
+    <p class="font-oxanium">Ce paragraphe entier utilisera la police Oxanium.</p>
+
+    <p>Ce début de phrase est en police par défaut, mais ce <span class="font-roboto">mot sera en Roboto</span>, et cette <span class="font-merriweather-italic">phrase en Merriweather italique</span>.</p>
+
+    </div>
