@@ -1,0 +1,53 @@
+/* --- Variables globales (définies dans :root) --- */
+:root {
+  /* URL de l'image de Pascal. Tu peux créer une variable par personnage si tu as plusieurs images. */
+  --pascal-image-url: url('https://Esotirat.github.io/Forum-rp/Images/Pascal_token.png');
+  
+  /* Couleur principale pour les bordures et autres éléments si tu veux la centraliser */
+  --dialog-border-color: cyan;
+  
+  /* Largeur et hauteur de l'image si tu veux les définir globalement */
+  --character-image-size: 100px; /* Taille de l'image de personnage */
+}
+
+/* Styles pour la bulle de dialogue principale */
+.dialog-bubble {
+  display: flex; /* Utilise Flexbox pour aligner le contenu (texte et image) côte à côte */
+  align-items: center; /* Centre les éléments enfants (texte et image) verticalement */
+  border: 2px solid var(--dialog-border-color); /* Utilise la variable pour la couleur de la bordure */
+  padding: 15px; /* Ajoute un espace interne de 15px autour du contenu */
+  margin-bottom: 20px; /* Ajoute un espace de 20px sous chaque bulle pour les séparer */
+  max-width: 800px; /* Limite la largeur maximale de la bulle à 800px pour une meilleure lisibilité */
+  box-sizing: border-box; /* Inclut le padding et la bordure dans la largeur et la hauteur totale de l'élément */
+  background-color: #f9f9f9; /* Couleur de fond légère pour la bulle (peut être ajustée) */
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ajoute une légère ombre portée pour un effet de profondeur */
+}
+
+/* Styles pour le conteneur du texte du dialogue */
+.dialog-content {
+  flex-grow: 1; /* Permet à ce bloc de prendre tout l'espace horizontal disponible, en poussant l'image vers la droite */
+  margin-right: 20px; /* Ajoute un espace de 20px entre le texte du dialogue et l'image */
+  text-align: left; /* Aligne le texte à gauche */
+}
+
+/* Styles pour le paragraphe de texte à l'intérieur du dialogue */
+.dialog-content p {
+  margin: 0; /* Supprime la marge par défaut des paragraphes pour un contrôle plus fin de l'espacement */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Définit une police de caractères lisible */
+  font-size: 1.1em; /* Ajuste la taille de la police */
+  color: #333; /* Couleur du texte (noir légèrement adouci) */
+  line-height: 1.6; /* Améliore la lisibilité en augmentant l'espacement des lignes */
+}
+
+/* Styles pour le conteneur de l'image de personnage (utilisant une image de fond) */
+.character-image-bg {
+  flex-shrink: 0; /* Empêche ce bloc de rétrécir si l'espace est limité, garantissant que l'image reste visible */
+  width: var(--character-image-size); /* Utilise la variable pour la largeur */
+  height: var(--character-image-size); /* Utilise la variable pour la hauteur */
+  background-image: var(--pascal-image-url); /* Utilise la variable pour l'URL de l'image */
+  background-size: contain; /* Redimensionne l'image de fond pour qu'elle soit entièrement visible dans le conteneur, sans être coupée, tout en conservant ses proportions */
+  background-repeat: no-repeat; /* Empêche l'image de se répéter en mosaïque */
+  background-position: center; /* Centre l'image de fond à l'intérieur de son conteneur */
+  border: 1px solid #ddd; /* Ajoute une fine bordure autour de l'image pour un meilleur contraste */
+  border-radius: 4px; /* Adoucit très légèrement les coins de l'image si vous le souhaitez (peut être retiré pour des coins parfaitement carrés) */
+}

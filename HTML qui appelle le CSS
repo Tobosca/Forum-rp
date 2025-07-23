@@ -1,0 +1,20 @@
+<link href='https://Esotirat.github.io/Forum-rp/discussion_nihillium.css' rel='stylesheet' type='text/css'/>
+
+<div class="dialog-box">
+   <div class="dialog-image-container"></div> <div class="dialog-text-content">
+       <p>Ceci est un exemple de texte de dialogue, il peut être court ou très long. La boîte s'adaptera automatiquement pour contenir tout le contenu, assurant que rien ne déborde et que la lecture reste agréable.</p>
+       <p>Tu peux ajouter autant de paragraphes ou d'autres éléments HTML ici que tu le souhaites. Le design sera flexible. Jis e suun ours  Jis e suun ours  Jis e suun ours  Jis e suun ours  Jis e suun ours  Jis e suun ours  Jis e suun ours  Jis e suun ours  Jis e suun ours  Jis e suun ours  Jis e suun ours  Jis e suun ours  Jis e suun ours  Jis e suun ours  </p>
+   </div>
+</div>
+
+
+<div class="val_dial nodata">
+    <i>Nodata observe la scène.</i><br>
+    Voici le texte du dialogue de nodata.
+</div>
+
+
+<div class="val_dial Pasqal">
+    <i>Nodata observe la scène.</i><br>
+    Voici le texte du dialogue de nodata.
+</div>
