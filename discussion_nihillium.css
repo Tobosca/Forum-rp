@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&family=Roboto:wght@400;700&family=Merriweather:ital,wght@0,400;1,400&display=swap');
 
 :root {
     --val-diag-border-radius: 0;
@@ -9,6 +9,19 @@
     --val-diag-rita-vignette: url("https://Tobosca.github.io/Forum-rp/Images/Rita_token.png");
     --val-rita-glitch-color1: #ff00ff; /* Magenta */
     --val-rita-glitch-color2: #00ffff; /* Cyan */
+
+    /* Classes pour les polices personnalisées */
+.font-oxanium {
+    font-family: 'Oxanium', sans-serif !important;
+}
+
+.font-roboto {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.font-merriweather {
+    font-family: 'Merriweather', serif !important; /* Merriweather est une police à empattement (serif) */
+}
 }
 
 /* Boîte de dialogue */
